@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #def;
+    font: 200 1.125rem/1.4 sans-serif;
+}
