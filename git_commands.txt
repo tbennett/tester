@@ -1,0 +1,29 @@
+
+Git
+	 main commands  * most useful commands
+		git --version
+		git config -l
+		git config --global user.name “John”
+		git config --global user.email “jon@dvc.edu”
+		git log // shows the commit history
+	  *  git status
+	  *  git init
+		
+		
+		git add . //stages changes on current directory and its sub dirs
+	  * git add -A //stages all changes through entire repo
+
+		git rm filename //remove tracked files from current working tree
+		git mv oldfile newfile //rename files
+	  * git commit -m "first commit"
+		git branch // list all branches
+	  * git branch branch_name //creat new branch
+	  * git checkout branch_name //switch to branch
+		git checkout -b branch_name //create a new branch and switch to it
+
+
+	  * git merge branch_name //merge current branch with branch_name
+		git add remote https://repo_here
+	  * git clone //makes copy of the latest version of a  repository
+	  * git push //uploads your commits to the remote repository
+		git pull //download updates from a remote repo
